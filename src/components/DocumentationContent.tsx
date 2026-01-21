@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Star, GitFork, AlertCircle, CheckCircle2, Info, Lightbulb } from 'lucide-react';
+import { Github, ExternalLink, AlertCircle, CheckCircle2, Info, Lightbulb } from 'lucide-react';
 import { CodeBlock } from './CodeBlock';
 import { IconButton } from './ui/IconButton';
 import { cn } from '@/lib/utils';
@@ -46,16 +46,6 @@ export function DocumentationContent({ activeSection }: DocumentationContentProp
               <IconButton 
                 icon={<Github className="w-5 h-5" />}
                 label="GitHub"
-                href="https://github.com"
-              />
-              <IconButton 
-                icon={<Star className="w-5 h-5" />}
-                label="Star"
-                onClick={() => alert('Obrigado pelo star!')}
-              />
-              <IconButton 
-                icon={<GitFork className="w-5 h-5" />}
-                label="Fork"
                 href="https://github.com"
               />
             </div>
